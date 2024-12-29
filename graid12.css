@@ -1,0 +1,53 @@
+fieldset {
+    width: 100px;
+    height:550px;
+    border-radius: 10px;
+     display: grid;
+    grid-template-columns: repeat(4 , 100px);
+   /* grid-template-rows: repeat(2 , 100px); */
+    margin: 10px;
+    padding: 10px;
+   /* grid-area:  " div1 div2 div3 div4"
+   "div5 . ." ;  */
+   
+}
+
+.button {
+background-color: rgb(38, 63, 97);
+width: 200px;
+border-radius: 10px;
+color : white;
+
+}
+div [
+    display: inline;
+
+]
+
+.div1{
+     grid-area: div1; 
+    
+}
+
+
+.div2{
+      grid-area: div2; 
+   
+}
+
+
+.div3{
+    grid-area: div3;
+}
+
+
+.div4{
+    grid-area: div4;
+}
+
+.div5{
+    grid-area: div5;
+}
+ /* .div1 .div2 .div3 .div4 {
+    display: grid;
+}  */

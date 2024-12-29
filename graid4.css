@@ -1,0 +1,59 @@
+div {
+    
+   
+    height: 700px;
+    width: 900px; 
+    display: grid;
+    grid-template-columns: repeat(2 , 200px) ;
+    grid-template-rows: repeat(2 , 200px) ;
+
+    /* grid-template-areas: "pic1 pic4"
+    ". ."
+    "pic3  pic2"
+    " . . "
+    ; */
+    
+    gap: 20px;
+}
+.d1 {
+    display: inline;
+    grid-template-columns: 100px 100px;
+    justify-content: start;
+}
+.d1 {
+    
+.p1 {
+    /* height: 400px;
+    width: 400px; */
+grid-area: pic1;
+}
+
+.p2 {
+    /* height: 400px;
+    width: 400px; */
+    grid-area: pic2;
+    
+    }
+}
+
+
+.d2 {
+    display: inline;
+    grid-template-rows: 50px 50px;
+    /* justify-content: start; */
+}
+.d2 {
+
+.p3 {
+/* height: 400px;
+width: 400px; */
+grid-area: pic3;
+}
+
+.p4 {
+
+/* width: 400px; height: 400px; */
+
+grid-area: pic4;
+}
+}

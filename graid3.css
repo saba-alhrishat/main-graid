@@ -1,0 +1,45 @@
+.container {
+    height: 700px;
+    width: 600px;
+    display: grid;
+     grid-template-columns: repeat(2 ,1fr);
+     grid-template-rows: repeat(4 , 100px);
+     gap: 10px;
+    
+}
+
+header , footer {
+    height: 100px;
+    width: auto;
+    background-color: yellow;
+    grid-column: 1/-1;
+    border-radius: 10px;
+
+    
+}
+
+ .side {
+    background-color: red;
+    grid-row: 2/10;
+    
+    border-radius: 10px;
+
+
+} 
+nav {
+    background-color: aqua;
+    grid-column: 2/3 ;
+    border-radius: 10px;
+
+
+} 
+article {
+    background-color: violet;
+    grid-row: 3/10;
+    border-radius: 10px;
+
+}
+footer {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,42 @@
+body {
+    border: 2px solid rgb(27, 25, 25);
+    height: 300px;
+    width: 700px;
+}
+
+fieldset {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3 , 70px);
+    grid-template-rows: repeat(2 , 70px);
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.rol1 .d1 {
+    background-color: rgb(216, 219, 188);
+}
+ .d2 {
+    background-color: rebeccapurple;
+ }
+
+  .d4 {
+    background-color: rgb(51, 153, 53);
+ }
+ .d5 {
+    background-color: rgb(153, 141, 51);
+
+ }
+
+ .d6 {
+    background-color: rgb(155, 128, 194);
+
+ }
+
+ .d3 {
+    background-color: rgb(153, 141, 51);
+
+ }
+
